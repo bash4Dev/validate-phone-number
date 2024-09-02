@@ -1,0 +1,84 @@
+:root {
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 10px 0;
+    background-color: #8a8787;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+#phone-div {
+    width: 260px;
+    height: 460px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+#cicle-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--white-color);
+}
+
+#phone-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    margin: 10px 5px;
+    padding-top: 8px;
+    background-color: #e7e2e2;
+}
+
+label {
+    font-size: 18px;
+}
+
+input#user-input {
+    width: 92%;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#results-div {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 15px;
+    gap: 1.3rem;
+}
+
+#check-btn, #clear-btn {
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
